@@ -1,6 +1,6 @@
 # fullstack-repo
 
-README File
+# README File
 Project Overview:
 
 This project consists of three main repositories:
@@ -38,3 +38,20 @@ Maintenance:
 Regularly update submodules in fullstack-repo to reflect changes from frontend-repo and backend-repo.
 Ensure synchronization of variables in config.yaml across all repositories for consistent functionality.
 This setup allows for modular development of frontend and backend components while maintaining centralized configuration management in the fullstack-repo.
+
+
+
+# Graph File
+Project Structure Overview:
+
+project/
+├── frontend-repo/
+│   ├── client.py
+├── backend-repo/
+│   ├── server.py
+└── fullstack-repo/
+    ├── config.yaml
+    ├── frontend/ (submodule)
+    │   ├── client.py
+    ├── backend/ (submodule)
+    │   ├── server.py
